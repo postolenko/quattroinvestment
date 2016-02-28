@@ -228,7 +228,7 @@ a:active {
 
 .ornament-sect {
     position: relative;
-    top: -98px;
+    top: -99px;
     margin: 0 auto;
     font-size: 0;
     line-height: 0;
@@ -285,7 +285,7 @@ a:active {
 }
 
 .first-bind {
-    top: -93px;
+    top: -94px;
     -webkit-transform:rotate(60deg);
     -moz-transform:rotate(60deg);
     -o-transform:rotate(60deg);
@@ -1164,7 +1164,7 @@ a:active {
 }
 
 .ornamenttwo {
-    top: -95px;
+    top: -96px;
 }
 
 .sect-invest-project .row {
@@ -1761,7 +1761,7 @@ a:active {
 }
 
 .ornamentfour {
-    top: -65px;
+    top: -64px;
 }
 
 .sect-have-question h2 {
