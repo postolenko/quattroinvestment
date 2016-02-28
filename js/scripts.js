@@ -90,6 +90,52 @@ $(document).ready(function() {
     });
 
 
+
+    // -----
+
+        var attrStr;
+        var reAttr;
+        var resultReg;
+
+        $("button").click(function(e) {
+            
+                if ( $(this).attr("id")) {
+
+                attrStr = String($(this).attr("id"));
+
+                reAttr = /modal/g;
+
+                while ((resultReg = reAttr.exec(attrStr)) != null) {
+
+                    if(resultReg[0] == "modal") {              
+
+                        e.preventDefault();
+
+                        $("#" + resultReg[0]).fadeIn(300);
+
+                        $("#" + resultReg[0] + " .modal-block").css({"top": ( $(window).height() - $(".modal-box .modal-block").outerHeight(true) ) / 2  + "px"});
+
+                        break;
+
+                    }
+
+                }
+
+            }
+
+        });
+
+
+
+        $(".close-modal-btn, .modal-bg").click(function() {
+
+            $(".modal-box").fadeOut(300);
+
+        });
+
+    // -----
+
+
     // Show or hide ".scroll-to-top" button
 
 
