@@ -168,6 +168,15 @@ a:active {
     -webkit-tap-highlight-color: rgba(0,0,0,0); 
     -webkit-tap-highlight-color: transparent;
 }
+
+.glyphicon-menu-left:before {
+  content: "\e257";
+}
+
+.glyphicon-menu-right:before {
+  content: "\e258";
+}
+
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -736,12 +745,59 @@ a:active {
     padding: 0 0 40px 0;
 }
 
-.slider-fact {
-    width: 85%;
-    margin: 0 auto;
+.slider-box {
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    width: 100%;
 }
 
-.slide {
+.slider-fact {
+    width: 100%;
+}
+
+.swipper-slider-first,
+.swipper-slider-second {
+    overflow-x: hidden;
+}
+
+.swiper-button-next {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 10px;
+    /*background: rgba(255, 255, 255, 1);*/
+    position: relative;
+    left: -12px;
+}
+
+.swiper-button-prev {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 10px;    
+    /*background: rgba(255, 255, 255, 1);*/
+    position: relative;
+    right: -12px;
+}
+
+/*.invest-project-next
+.invest-project-prev*/
+
+.slider-fact,
+.slider-invest {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    text-align: center;
+}
+
+.swiper-pagination-one {
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+.swiper-slide {
     font-size: 0;
     line-height: 0;
 }
@@ -1051,16 +1107,20 @@ a:active {
     font-weight: 300;
 }
 
-.invest-project-slider {
-    padding: 40px 0;
+.slider-invest-box {
+    padding: 60px 0 0 0;
 }
 
-.invest-project-slider .slide {
+.swiper-pagination-invest {
+    margin: 20px 0 0 0;
+}
+
+.slider-invest .slide {
     width: 80%;
     margin: 0 auto;
 }
 
-.slide-left-col {
+.slider-invest .slide-left-col {
     display: inline-block;
     vertical-align: top;
     width: 55%;
@@ -1068,7 +1128,7 @@ a:active {
     padding: 0 3% 0 0;
 }
 
-.invest-project-slider h3 {
+.slider-invest h3 {
     color: #1cbedb;
     font-family: "Fira Sans", Arial, Verdana, sans-serif;
     font-size: 30px;
@@ -1078,7 +1138,7 @@ a:active {
     padding: 0 0 10px 0;
 }
 
-.invest-project-slider p {
+.slider-invest p {
     color: #ffffff;
     font-family: "Fira Sans", Arial, Verdana, sans-serif;
     font-size: 16px;
@@ -1087,7 +1147,7 @@ a:active {
     padding: 15px 0;
 }
 
-.slide-right-col {
+.slider-invest .slide-right-col {
     display: inline-block;
     vertical-align: top;
     width: 45%;
