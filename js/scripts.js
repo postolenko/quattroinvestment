@@ -135,6 +135,39 @@ $(document).ready(function() {
 
     // -----
 
+    // -----
+
+    var pressThumbIndex;
+
+    $(".show-box").click(function(scale) {
+
+        scale.preventDefault();
+
+        pressThumbIndex = $(".show-box").index(this);
+
+        $(".modal-press-box").fadeIn(300);
+
+        $(".modal-press").append( $(".press-thumb-box:eq("+ pressThumbIndex +")").html() );
+
+
+        $(".press .modal-press-bg, .press .modal-press-closebtn").click(function() {
+
+            $(".modal-press-box .modal-press").html("");
+
+            $(".modal-press-box").fadeOut(300);
+
+        });
+
+
+    });
+
+
+
+
+
+
+    // -----
+
 
     // Show or hide ".scroll-to-top" button
 
