@@ -225,6 +225,76 @@ a:active {
 }
 
 
+
+.ornament-sect {
+    position: relative;
+    top: -98px;
+    margin: 0 auto;
+    font-size: 0;
+    line-height: 0;
+    width: 150px;
+    position: relative;
+    z-index: 2;
+
+    -webkit-transform:rotate(-60deg);
+    -moz-transform:rotate(-60deg);
+    -o-transform:rotate(-60deg);
+    transform:rotate(-60deg);
+    -ms-transform:rotate(-60deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.ornament-sect .circle-white {
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.ornament-sect .line-white {
+    display: inline-block;
+    vertical-align: middle;
+    width: 67px;
+    height: 0;
+    border-top: 1px solid #ffffff;
+}
+
+.ornament-sect .line-blue {
+    display: inline-block;
+    vertical-align: middle;
+    width: 67px;
+    height: 0;
+    border-top: 1px solid #1cbedb;
+}
+
+.ornament-sect .circle-blue {
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #1cbedb;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.first-bind {
+    top: -93px;
+    -webkit-transform:rotate(60deg);
+    -moz-transform:rotate(60deg);
+    -o-transform:rotate(60deg);
+    transform:rotate(60deg);
+    -ms-transform:rotate(60deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -1093,6 +1163,10 @@ a:active {
     background: rgba(0, 0, 0, .8);
 }
 
+.ornamenttwo {
+    top: -95px;
+}
+
 .sect-invest-project .row {
     position: relative;
     z-index: 2;
@@ -1368,6 +1442,10 @@ a:active {
     padding: 90px 0;
 }
 
+.ornamentthree {
+    top: -94px;
+}
+
 .sect-testimonials h2 {
     color: #ffffff;
     font-family: "Fira Sans", Arial, Verdana, sans-serif;
@@ -1585,7 +1663,6 @@ a:active {
     border-radius: 50%;
 }
 
-
 .modal-press {
     width: 30%;
     height: 90%;
@@ -1681,6 +1758,10 @@ a:active {
     background-size: cover;
     padding: 60px 0 30px 0;
     text-align: center;
+}
+
+.ornamentfour {
+    top: -65px;
 }
 
 .sect-have-question h2 {
