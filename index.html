@@ -994,39 +994,47 @@
         
 			        <script type="text/javascript">
 
-			            google.maps.event.addDomListener(window, 'load', init);
+			     //        google.maps.event.addDomListener(window, 'load', init);
 			        
-			            function init() {
+			     //        function init() {
 
-			                var mapOptions = {
-			                    zoom: 16,
-			                    scrollwheel: false,
-								zoomControl: false,
-								mapTypeControl: false,
-								scaleControl: false,
-								streetViewControl: false,
-								rotateControl: false,
-								fullscreenControl: false,
+			     //            var mapOptions = {
+			     //                zoom: 16,
+			     //                scrollwheel: false,
+								// zoomControl: false,
+								// mapTypeControl: false,
+								// scaleControl: false,
+								// streetViewControl: false,
+								// rotateControl: false,
+								// fullscreenControl: false,
 
-			                    center: new google.maps.LatLng(53.3376894, 83.7780787),
+			     //                center: new google.maps.LatLng(53.3376894, 83.7780787),
 
-			                    styles: []
-			                };
+			     //                styles: []
+			     //            };
 
-			                var mapElement = document.getElementById('map');
+			     //            var mapElement = document.getElementById('map');
 
-			                var map = new google.maps.Map(mapElement, mapOptions);
+			     //            var map = new google.maps.Map(mapElement, mapOptions);
 
-			                var marker = new google.maps.Marker({
-			                    position: new google.maps.LatLng(53.337473, 83.778373),
-			                    map: map,
-			                    title: 'Snazzy!'
-			                });
-			            }
+			     //            var marker = new google.maps.Marker({
+			     //                position: new google.maps.LatLng(53.337473, 83.778373),
+			     //                map: map,
+			     //                title: 'Snazzy!'
+			     //            });
+			     //        }
 
 			        </script>
 					
-					<div id="map"></div>
+					<div id="map">
+						
+						<a class="dg-widget-link" href="http://2gis.ru/barnaul/firm/563478235238124/center/83.77871274948122,53.33644687079924/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Барнаула</a><div class="dg-widget-link"><a href="http://2gis.ru/barnaul/firm/563478235238124/photos/563478235238124/center/83.77871274948122,53.33644687079924/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/barnaul/center/83.778792,53.337459/zoom/16/routeTab/rsType/bus/to/83.778792,53.337459╎Детское здоровье, ООО, консультативно-диагностический центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Детское здоровье, ООО, консультативно-диагностический центр</a></div><script charset="utf-8" src="http://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({
+							"width": $(window).width(),
+							"height": $(window).height(),
+							"borderColor":"#a3a3a3","pos":{"lat":53.33644687079924,"lon":83.77871274948122,"zoom":16},"opt":{"city":"barnaul"},"org":[{"id":"563478235238124"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+
+
+					</div>
 
 				</div>
 
