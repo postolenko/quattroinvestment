@@ -75,9 +75,9 @@ $(document).ready(function() {
 			pricecalcVal = parseInt( $("#pricecalc").val() );
 			sliderPrice = parseFloat( $("#slider_price").val() );
 
-			salaryVal = parseInt( pricecalcVal + ( sliderPrice * 30 * 0.000821 * pricecalcVal ) );
+			salaryVal = parseInt( pricecalcVal * 0.025 * sliderPrice);
 
-			totalsumVal = parseInt( salaryVal + pricecalcVal);		
+			totalsumVal = parseInt( salaryVal + pricecalcVal );	
 
 			$(".totalsum").val(totalsumVal);
 
