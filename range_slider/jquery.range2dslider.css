@@ -313,4 +313,38 @@ line-height:1.1em;
 
 
 
+/*     */
 
+.xdsoft_custom .xdsoft_range2dslider_runner{
+    border-radius: 0; 
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #1cbedb;
+}
+
+.xdsoft_custom .xdsoft_range2dslider_box{
+    min-height:8px;
+    background:rgba(28, 190, 219, 1);
+    border-radius: 7px;
+    border: 1px solid transparent;
+    width: 83% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.xdsoft_custom .xdsoft_slider_label{
+    background: rgba(255, 255, 255, 1);
+    color: #2c2c2c;
+    bottom: 22px !important;
+    height: 12px;
+    padding: 10px;
+    border: 1px solid #1cbedb;
+    margin: 0 0 1px 0;
+}
+
+.xdsoft_custom .xdsoft_slider_label.xdsoft_slider_label_top:after{
+    border-top-color: rgb(28, 190, 219);
+}

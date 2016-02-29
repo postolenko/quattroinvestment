@@ -30,7 +30,7 @@
 
 <!-- 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16"> -->
 	
-	<title></title>
+	<title>Quattro Investment</title>
 
 </head>
 
@@ -625,7 +625,7 @@
 
 									<div class="inptcalc-box">
 
-										<p><input type="text" class="price-calc" id="pricecalc" /> <span class="calc-valute">рублей</span></p>
+										<p><input type="text" maxlength="19" class="price-calc" id="pricecalc" /> <span class="calc-valute">рублей</span></p>
 
 									</div>
 
@@ -642,65 +642,6 @@
 									<div class="inptcalc-box">
 
 										<input id="slider_price" />
-										
-											<style>
-
-												.xdsoft_custom .xdsoft_range2dslider_runner{
-													/*border-radius:1px;
-													margin:0px 0px -4px -8px !important;
-													background:rgba(0,0,127,0.5);
-													border:1px outset #ddd;*/
-
-													border-radius: 0; 
-													background-color: transparent;
-													width: 0;
-													height: 0;
-													border-left: 8px solid transparent;
-													border-right: 8px solid transparent;
-													border-bottom: 10px solid #1cbedb;
-												}
-
-												.xdsoft_custom .xdsoft_range2dslider_box{
-													min-height:8px;
-													background:rgba(28, 190, 219, 1);
-													border-radius: 7px;
-													border: 1px solid transparent;
-													width: 83% !important;
-													display: block;
-													margin: 0 auto;
-												}
-
-												.xdsoft_custom .xdsoft_slider_label{
-													background: rgba(255, 255, 255, 1);
-													color: #2c2c2c;
-													bottom: 22px !important;
-													height: 12px;
-													padding: 10px;
-													border: 1px solid #1cbedb;
-													margin: 0 0 1px 0;
-												}
-
-												.xdsoft_custom .xdsoft_slider_label.xdsoft_slider_label_top:after{
-													/*border-top-color:red;*/
-													border-top-color: rgb(28, 190, 219);
-												}
-
-											</style>
-											<script>
-											$('#slider_price').range2DSlider({
-												grid:false,
-												height:0,
-												className:'xdsoft_custom',
-												showLegend:[1,0],
-												axis:[[6, 36]],
-												tooltip:['top'],
-												alwShowTooltip:[true],
-												allowAxisMove:['x'],
-												printLabel:function( val ){
-													return val[0].toFixed(0);
-												}
-											}).range2DSlider('value',[[1,0]]);
-											</script>
 
 									</div>
 
@@ -716,7 +657,7 @@
 
 									<div class="inptcalc-box">
 
-										<p class="total-sum"><input maxlength="10" type="text" disabled class="bold-txt totalsum" /> <span>рублей</span></p>
+										<p class="total-sum"><input maxlength="19" type="text" disabled class="bold-txt totalsum" /> <span>рублей</span></p>
 
 									</div>
 
@@ -733,7 +674,7 @@
 									<div class="inptcalc-box">
 
 										<p class="salarypersent">
-										<input maxlength="10" type="text" disabled class="salary bold-txt" /> <span>рублей</span>
+										<input maxlength="19" type="text" disabled class="salary bold-txt" /> <span>рублей</span>
 										</p>
 
 									</div>
@@ -1182,12 +1123,26 @@
 
 	<script src="js/scripts.js"></script>
   
-	<!-- JavaScript код  навигационного меню -->
-<!--
-	<script src="main_navigation/main_navigation.js"></script>
--->
-
 	<script src="js/invest_calc.js"></script>
+
+
+		<script>
+
+			$('#slider_price').range2DSlider({
+				grid:false,
+				height:0,
+				className:'xdsoft_custom',
+				showLegend:[1,0],
+				axis:[[6, 36]],
+				tooltip:['top'],
+				alwShowTooltip:[true],
+				allowAxisMove:['x'],
+				printLabel:function( val ){
+					return val[0].toFixed(0);
+				}
+			}).range2DSlider('value',[[1,0]]);
+
+		</script>
 
 		<script>
 		
