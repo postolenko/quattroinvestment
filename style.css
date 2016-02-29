@@ -836,7 +836,6 @@ a:active {
     vertical-align: middle;
     height: 30px;
     width: 10px;
-    /*background: rgba(255, 255, 255, 1);*/
     position: relative;
     left: -12px;
 }
@@ -846,13 +845,9 @@ a:active {
     vertical-align: middle;
     height: 30px;
     width: 10px;    
-    /*background: rgba(255, 255, 255, 1);*/
     position: relative;
     right: -12px;
 }
-
-/*.invest-project-next
-.invest-project-prev*/
 
 .slider-fact,
 .slider-invest {
@@ -896,10 +891,6 @@ a:active {
     line-height: 30px;
     font-weight: 400;
     text-align: left;
-}
-
-.slide-txt {
-
 }
 
 .slide-right-col {
@@ -947,8 +938,32 @@ a:active {
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    margin: 0 0 23px 0;
-    padding: 0 7% 0 0;
+    padding: 0 7% 2% 0;
+    position: relative;
+}
+
+.unionline-one {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -33px;
+    left: 4%;
+}
+
+.unionline-two {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 55px;
+    left: -97%;
+}
+
+.unionline-three {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 34px;
+    left: 8%;
 }
 
 .works-header {
@@ -960,6 +975,8 @@ a:active {
     vertical-align: middle;
     width: 19%;
     padding: 0 2% 0 0;
+    position: relative;
+    z-index: 2;
 }
 
 .work-icon-box .work-icon {
@@ -1011,7 +1028,6 @@ a:active {
     font-weight: 400;
     padding: 0 0 20px 0;
 }
-
 
 .free-consultation {
     border: 3px dotted #1cbedb;
@@ -1228,7 +1244,6 @@ a:active {
 }
 
 
-
 /* ----- /Invest Project ------ */
 
 
@@ -1303,14 +1318,6 @@ a:active {
     font-size: 12px;
     line-height: 30px;
     font-weight: 400;
-}
-
-.lab-box {
-
-}
-
-.inptcalc-box {
-
 }
 
 .total-sum {
@@ -1627,9 +1634,7 @@ a:active {
     left: 0;
     width: 100%;
     height: 100%;
-    /*background: rgba(0, 0, 0, .7);*/
     z-index: 9;
-    /*overflow-y: hidden;*/
 }
 
 .modal-press-bg {
@@ -1745,7 +1750,6 @@ a:active {
 }
 
 
-
 /* ----- /Наши Партнеры  Пресса ------ */
 
 
@@ -1838,9 +1842,6 @@ a:active {
     padding: 60px 0;
 }
 
-.down-arrow {
-
-}
 
  #map {
     width: 100%;

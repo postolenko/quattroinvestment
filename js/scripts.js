@@ -162,11 +162,12 @@ $(document).ready(function() {
     });
 
 
-
-
+    // -----
 
 
     // -----
+
+    $(".unionline-two").height($(".work-thumb:eq(0)").height());
 
 
     // Show or hide ".scroll-to-top" button
