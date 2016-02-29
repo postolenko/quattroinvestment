@@ -837,7 +837,7 @@ a:active {
     height: 30px;
     width: 10px;
     position: relative;
-    left: -12px;
+    right: -12px;
 }
 
 .swiper-button-prev {
@@ -846,7 +846,7 @@ a:active {
     height: 30px;
     width: 10px;    
     position: relative;
-    right: -12px;
+    left: -12px;
 }
 
 .slider-fact,

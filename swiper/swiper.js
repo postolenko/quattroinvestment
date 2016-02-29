@@ -27,7 +27,7 @@
             initialSlide: 0,
             speed: 1000,
             // autoplay
-            autoplay: 11000,
+            autoplay: 15000,
             autoplayDisableOnInteraction: false,
             autoplayStopOnLast: false,
             // To support iOS's swipe-to-go-back gesture (when being used in-app, with UIWebView).
@@ -97,7 +97,7 @@
             slidesOffsetBefore: 0, // in px
             slidesOffsetAfter: 0, // in px
             // Round length
-            roundLengths: false,
+            roundLengths: true,
             // Touches
             touchRatio: 1,
             touchAngle: 45,
@@ -144,7 +144,7 @@
             preloadImages: true,
             updateOnImagesReady: true,
             // loop
-            loop: false,
+            loop: true,
             loopAdditionalSlides: 0,
             loopedSlides: null,
             // Control
