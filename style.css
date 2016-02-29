@@ -1370,8 +1370,7 @@ a:active {
     display: inline-block;
     vertical-align: middle;
     content: "мес";
-    margin: 0 0 3px 0;
-    padding: 0 0 0 3%;
+    margin: 0 0 3px 3px;
 }
 
 .calc-question-box {
