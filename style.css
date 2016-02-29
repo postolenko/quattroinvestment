@@ -1078,7 +1078,7 @@ a:active {
 
 .name {
     width: 97%;
-    min-height: 40px;
+    min-height: 42px;
     color: #2c2c2c;
     font-family: "Fira Sans", Arial, Verdana, sans-serif;
     font-size: 14px;
@@ -1094,7 +1094,7 @@ a:active {
 
 .email {
     width: 97%;
-    min-height: 40px;
+    min-height: 42px;
     color: #2c2c2c;
     font-family: "Fira Sans", Arial, Verdana, sans-serif;
     font-size: 14px;
