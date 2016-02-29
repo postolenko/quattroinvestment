@@ -54,6 +54,12 @@ $(document).ready(function() {
 
     });
 
+    $(document).resize(function() {
+        
+        $(".unionline-two").height($(".work-thumb:eq(0)").height());
+        
+    });
+
 
     // -----
 

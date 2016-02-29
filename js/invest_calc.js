@@ -1,14 +1,5 @@
 $(document).ready(function() {
 
-	// var pricecalcVal = $("#pricecalc").val();
-	// var slider_price = $("#slider_price").val();
-	// var	totalsumVal  = $(".totalsum").val();
-	// var	salaryVal    = $(".salary").val();
-
-	// var pricecalcVal;
-	// var sliderPrice;
-
-
 	var pricecalcVal = parseInt( $("#pricecalc").val() );
 	var sliderPrice = parseFloat( $("#slider_price").val() );
 	
